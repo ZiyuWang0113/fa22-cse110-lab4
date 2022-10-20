@@ -38,5 +38,11 @@
     E - false, true maps to 1
     
     F - true, Boolean(2) is true since 2 != 0
-    
-    
+15. `==` can convert types before comparing but `===` do not convert, so `===` will return always false when types are different.
+16. ``` 
+    for(let property in statistics){
+        if(property[0] == 'r' || statistics[property] % 2 == 1){
+            console.log(statistics[property]);
+        }
+    }
+    ```
