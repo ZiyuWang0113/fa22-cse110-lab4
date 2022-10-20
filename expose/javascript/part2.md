@@ -55,5 +55,12 @@
         console.log(time);
     }
     const interval = setInterval(t, 500);
+    ``` 
+19. Output is:
     ```
-19.
+    1
+    4
+    3
+    2 (delay 1 second)
+    ```
+    1,4,3 output at the same time with 2 at delay 1000 milliseconds that the timer wait before the function is executed.
