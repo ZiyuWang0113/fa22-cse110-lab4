@@ -47,3 +47,13 @@
     }
     ```
 17. The result should be ` [2, 4, 6]` as the `newArr`. The process is: call `modifyArray`, pass in two parameters, in the for-loop, call the `callback` function to times 2 for each `array[i]` and push it into the `newArr`. So after the for-loop, the `newArr` will be double of `[1,2,3]`.
+18. I think there are different ways: 1. while(true) and put codes in the while loop 2. use `setInterval`:
+    ```
+    function t() {
+        let d = new Date();
+        let time = d.toLocaleTimeString();
+        console.log(time);
+    }
+    const interval = setInterval(t, 500);
+    ```
+19.
